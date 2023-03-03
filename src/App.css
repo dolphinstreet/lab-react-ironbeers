@@ -46,15 +46,18 @@
   text-align: justify;
   text-decoration: none;
   color: #282c34;
-  padding: 2rem;
   background-color: rgb(135, 174, 174);
   margin: 1rem;
-  width: 15rem;
+  width: 20rem;
 }
 
 .home-element img{
-  max-width: 100px;
+  width: 100%;
 } 
+
+.home-element p{
+  margin: 1rem 2rem;
+}
 
 
 .navbar {
