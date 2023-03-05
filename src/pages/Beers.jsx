@@ -24,16 +24,16 @@ if (!beers) {
         <ul className="beer-list">
         {beers.map(beer => {
             return (
-                <Link to={`/beer/${beer._id}`}>
                 <li key={beer._id}>
+                <Link to={`/beer/${beer._id}`}>
                     <img src={beer.image_url} alt={beer.name}/>
                     <div>
                         <h2>{beer.name}</h2>
                         <h4>{beer.tagline}</h4>
                         <small>{beer.contributed_by}</small>
                     </div>
-                </li>
                 </Link>
+                </li>
             )
         })}
 
